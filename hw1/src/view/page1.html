@@ -1,0 +1,29 @@
+<div class="container">
+<h1>{{showCurrentLayout()}}</h1>
+<form role="form">
+  <div class="form-group">
+  <label>
+    <input type="radio" ng-model="isListStyle" ng-value="true">
+    List
+  </label>
+  <label>
+    <input type="radio" ng-model="isListStyle" ng-value="false">
+    Grid
+  </label>
+
+  </div>
+  </form>
+<div id="instructors" class="row list-group">
+   <div class="item  col-xs-4 col-lg-4" ng-repeat="instructor in instructors" ng-class="{'list-group-item': isListStyle, 'grid-group-item': !isListStyle}">
+      <div class="thumbnail">
+         <div class="caption">
+            <h4 class="group inner list-group-item-heading">
+                  
+               {{instructor}}
+               <a class="btn btn-success" href="https://github.com/poc7667">More</a>
+            </h4>
+
+         </div>
+      </div>
+   </div>
+</div>

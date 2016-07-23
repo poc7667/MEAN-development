@@ -1,0 +1,27 @@
+{
+  "name": "MEANSTACK-homeworks",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "poc <poc7667@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "^2.0.0",
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {
+    "angular-bootstrap": "^2.0.0"
+  }
+}
